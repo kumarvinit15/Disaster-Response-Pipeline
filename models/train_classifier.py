@@ -33,7 +33,7 @@ def load_data(database_filepath):
 
 def tokenize(text):
     """
-    INPUT-text
+    INPUT-text data
     OUTPUT-Tokenize and transform input text.Return tranformed tokens
     """
     url_regex = 'http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+'
