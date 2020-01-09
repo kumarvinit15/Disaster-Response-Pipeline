@@ -55,7 +55,10 @@ Project files has been organized into data, models and app folders as described 
 - ML pipeline-To create a best ML classifier which outputs multiclasses
 - Flask app- A Web page to show data visualization and classify any message that users would enter on the web page.
 ## Visuals from Web page
-![Calssification](../master/images/web page.png)
+![Classification](https://github.com/kumarvinit15/Disaster-Response-Pipeline/blob/master/images/web%20page.PNG)
+![Classification](https://github.com/kumarvinit15/Disaster-Response-Pipeline/blob/master/images/distr%20of%20messages%20genre.PNG)
+![Classification](https://github.com/kumarvinit15/Disaster-Response-Pipeline/blob/master/images/message%20per%20category.PNG)
+![Classification](https://github.com/kumarvinit15/Disaster-Response-Pipeline/blob/master/images/heatmap.PNG)
 ## Licensing, Authors, and Acknowledgements
 We acknowledge and thank the effort of FigureEight for providing the dataset to be used by this project.
 We also acknowledge and thank our Udacity team for providing a good starter code and easy to understand instructions towards completion of this project.
