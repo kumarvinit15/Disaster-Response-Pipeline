@@ -4,9 +4,10 @@
   2. Python Libraries   
   3. File Description  
   4. Implementation  
-  5. Results  
-  6. Visuals from Web page 
-  7. Licensing, Authors, and Acknowledgements  
+  5. Running Scripts  
+  6. Results  
+  7. Visuals from Web page 
+  8. Licensing, Authors, and Acknowledgements  
   
 ## Project Description
 The objective of the Disaster Response Pipeline project is to create a web application that can help emergency workers to classify incoming messages using machine learning into specific categories to speedup aid and help to needed people.
@@ -50,6 +51,14 @@ Project files has been organized into data, models and app folders as described 
     * Preform `GirdSearchCV`
     * Find best parameters and update the pipeline with new parameters
 4. Export ML Model as .pkl File
+## Running Python Scripts
+Run the following commands in the project's root directory to set up your database and model.
+  * To run ETL pipeline that cleans data and stores in database python-`data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db`
+  * To run ML pipeline that trains classifier and saves model- `python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl`
+  * Run the following command in the app's directory to run the web app- `python run.py`
+  * open another Terminal Window in IDE workspace and type- `env|grep WORK`
+  * In a new web browser window, type- 'https://SPACEID-3001.SPACEDOMAIN' and replace `SPACEID` with `SPACEID` form previous step.
+  * Launch the web broswer which should bring the web application.
 ## Results
 - ETL pipeline-To clean,transform and load clean data into a SQLite database.
 - ML pipeline-To create a best ML classifier which outputs multiclasses
